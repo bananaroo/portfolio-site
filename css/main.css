@@ -1,0 +1,303 @@
+/* BASE STYLES */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+
+
+/* end BASE STYLES */
+
+/* GRID */
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+/* end GRID */
+
+/* HEADER */
+header {
+    height: 500px;
+    background: url("../img/desertbgedit.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-size: 2em;
+}
+
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    line-height: 80px;
+    color: #edd3d3;
+    padding: 20px 0 0 25px;
+}
+
+header h3 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    padding: 0 0 20px 25px;
+    margin-top: -20px;
+    color: #ffffff;
+}
+/* end HEADER */
+
+/* ABOUT */
+#about .full-width {
+    padding: 40px 0;
+    height: 240px;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font: size 36px;
+    padding-left: 50px;
+    color: #7f7f7f;
+} 
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*end ABOUT */
+
+/* SKILLS */
+#skills {
+    background-color: #d09478;
+    text-align: center;
+    color: #ffffff;
+}
+
+#skills .full-width {
+    padding: 40px 0;
+    height: 290px;
+}
+
+#skills .third-width {
+    text-align: left;
+}
+
+.first-list {
+    margin-left: 60px;
+}
+
+.center {
+    margin-left: 60px;
+}
+ 
+#skills img {
+    padding-bottom: 30px;
+}
+
+#skills h2 {
+    font-family: 'Lora', serif;
+    font: size 36px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#skills ul {
+    font-size: 20px;
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block
+}
+
+#skills h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+ 
+#skills p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+/* end SKILLS */
+
+/* PROJECTS */
+
+#projects h2 {
+    font-family: 'Lora', serif;
+    font: size 36px;
+    padding-left: 50px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#projects .full-width {
+    padding: 40px 0;
+    height: 600px;
+}
+
+#projects .third-width {
+    text-align: left;
+}
+
+#projects p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#projects h3 {
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.retreat-pic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+.word-game {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+.sticky-notes {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+/* end PROJECT */
+
+
+/* CONTACT */
+#contact {
+    background-color: #ebebeb;
+    height: 450px;
+}
+
+#contact .full-width {
+    padding: 50px 0;
+}
+
+#contact #contact-img {
+    margin-left: -175px;
+    margin-top: -160px;
+    height: auto;
+    max-width: 150%;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 50px;
+}
+
+#contact #envelope {
+    padding: 15px 10px 0 50px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #C49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    float: inherit;
+    padding: 5px 15px 40px 70px;
+}
+
+footer {
+    overflow: hidden;
+}
+
+/* end CONTACT */
