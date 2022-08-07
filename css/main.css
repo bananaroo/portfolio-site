@@ -105,6 +105,22 @@ a {
 
 /* end BASE STYLES */
 
+/* ----------------------- MOBILE STYLES --------------------------- */
+
+/* MOBILE GRID */
+
+
+
+/* end MOBILE GRID */
+
+/* ==========================================================================
+   Media Queries 
+   ========================================================================== */
+
+   @media only screen and (min-width: 1200px) {
+  
+    /* Desktop styles here */
+
 /* GRID */
 .full-width {
     width: 1200px;
