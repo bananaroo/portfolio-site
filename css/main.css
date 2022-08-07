@@ -83,15 +83,25 @@
     resize: vertical;
   }
 
-
-
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
 
 /* BASE STYLES */
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
     color: #2b2b2b;
 }
 
+a {
+	color: #C49075;
+    text-decoration: underline;
+}
 
 /* end BASE STYLES */
 
@@ -284,6 +294,7 @@ header h3 {
     line-height: 40px;
     padding-left: 50px;
     padding-right: 50px;
+    color: #C49075;
 }
 
 .retreat-pic {
