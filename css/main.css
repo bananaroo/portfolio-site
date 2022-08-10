@@ -124,7 +124,6 @@ a {
     float: left;
 }
 
-
 /* end MOBILE GRID */
 
 /* MOBILE HEADER */
@@ -141,52 +140,33 @@ header {
 }
 
 header h1 {
-    padding: 20px 0 5px 0px;
+    padding: 0 0 0 30px;
     font-family: 'Lora', serif;
     font-size: 1.875em;
     color: #ffffff;
 }
 
-nav {
+header nav {
     display: flex;
     flex-flow: row wrap;
-    float: right;
-    padding: -2px 36px 2px 20px;
+    padding: 70px 36px 2px 20px;
 }
 
 nav ul li {
-    display: inline-block;
+    display: flex;
+    font-size: 1em;
 }
 
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.125em;
-    color: #ffffff;
-    padding-left: 50px;
+    color: #ffffff;   
 }
 
-/*header h2 span {
-    color: #2b2b2b;
+.topnav a:hover {
+    color: black;
 }
 
-header h2 {
-    width: 1000px;
-    clear: both;
-    font-family: 'Lora', serif;
-    font-size: 1.4em;
-    line-height: 1em;
-    color: #edd3d3;
-    padding: 0 0 0 0;
-}
-
-header h3 {
-    font-family: 'Lora', serif;
-    font-size: 1em;
-    padding: 10px 0 0 0;
-    margin-top: -20px;
-    color: #ffffff;
-}*/
 /* end MOBILE HEADER */
 
 /* MOBILE ABOUT */
@@ -198,7 +178,7 @@ header h3 {
 
 #about h2 {
     font-family: 'Lora', serif;
-    font-size: 6em;
+    font-size: 2em;
     color: #7f7f7f;
     text-align: center;
 } 
@@ -244,7 +224,7 @@ header h3 {
 */
 #skills h2 {
     font-family: 'Lora', serif;
-    font-size: 6em;
+    font-size: 2em;
     padding-left: 50px;
     text-align: center;
     margin-top: 8px;
@@ -279,9 +259,12 @@ header h3 {
    Media Queries 
    ========================================================================== */
 
+    
+   
+   
    @media only screen and (min-width: 1200px) {
   
-    /* Desktop styles here */
+    /* -------------------Desktop styles here---------------------------- */
 
 /* DESKTOP GRID */
 .full-width {
@@ -299,7 +282,7 @@ header h3 {
 
 /* DESKTOP HEADER */
 header {
-    height: 500px;
+    height: 200px;
 }
 
 .title {
@@ -315,25 +298,15 @@ nav {
     padding: 75px 25px;
 }
 
+nav ul li {
+    display: inline;
+}
+
 nav ul li a {
     padding-left: 50px;
+    color: #ffffff;
 }
 
-/*header h2 span {
-    color: #2b2b2b;
-}
-
-/*header h2 {
-    width: 1000px;    
-    font-size: 4.375em;
-    line-height: 80px;
-    padding: 20px 0 0 25px;
-}
-
-header h3 {
-    font-size: 1.5625em;
-    padding: 0 0 20px 25px;
-}*/
 /* end DESKTOP HEADER */
 
 /* DESKTOP ABOUT */
