@@ -1,0 +1,63 @@
+body {
+    font: 16px 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #2b2b2b;
+}
+
+/* ----GLOBAL------ */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+header {
+    background: url("../img/desertbgedit.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #title {
+    float: left;
+}
+
+header #title h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover {
+    color: #055B4A;
+    font-weight: bold;
+}
+
