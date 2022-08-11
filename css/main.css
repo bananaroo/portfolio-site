@@ -18,6 +18,13 @@ ul {
     padding: 0;
 }
 
+h2 {
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
 
 /* HEADER */
 
@@ -61,3 +68,27 @@ header a:hover {
     font-weight: bold;
 }
 
+/* ABOUT */
+
+#about {
+    min-height: 300px;
+    color: #7f7f7f;
+    text-align: left;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+/* SKILLS */
+
+#skills {
+    background-color: #d09478;
+    color: #ffffff;
+}
+
+/* PROJECTS */
+
+#projects .third-width {
+    
+}
