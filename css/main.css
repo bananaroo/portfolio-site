@@ -90,5 +90,58 @@ header a:hover {
 /* PROJECTS */
 
 #projects .third-width {
-    
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+}
+
+#projects .third-width img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    width: 250px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #d09478;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+
+header #title,
+header nav,
+header nav li,
+#projects .third-width {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+
+
 }
