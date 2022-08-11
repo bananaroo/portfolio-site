@@ -115,14 +115,16 @@ footer {
 }
 
 footer h2 {
-    text-align: center;
+    text-align: left;
 }
 
-footer .icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 10px;
+footer ul {
+    margin-top: 20px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 20px 20px 0 0;
 }
 
 /* MEDIA QUERIES */
