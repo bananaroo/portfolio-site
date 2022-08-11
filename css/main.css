@@ -211,7 +211,7 @@ nav ul li a {
     width: 80%;
 }
 
-#skills .third-width {
+#skills .half-width {
     text-align: left;
 }
 
@@ -220,8 +220,7 @@ nav ul li a {
 }
 
 #skills .second-list {
-    margin-left: 18px;
-    margin-top: -27px;
+    padding-left: 108px;
 }
 
 #skills img {
@@ -242,7 +241,7 @@ nav ul li a {
     list-style-position: inherit;
     text-align: left;
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 #skills h3 {
