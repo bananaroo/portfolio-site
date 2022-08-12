@@ -71,13 +71,20 @@ header a:hover {
 /* ABOUT */
 
 #about {
-    min-height: 300px;
+    min-height: 200px;
     color: #7f7f7f;
     text-align: left;
 }
 
 #about p {
-    font-size: 16px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#about .half-width {
+    float: left;
+    height: 175px;
+    width: 50%;
 }
 
 /* SKILLS */
@@ -103,6 +110,16 @@ header a:hover {
     width: 150px;
     height: 150px;
     width: 250px;
+}
+
+#projects h3,
+#projects a {
+    color: #C49075;
+}
+
+#projects h3:hover,
+#projects a:hover {
+    color: #055B4A;
 }
 
 /* FOOTER */
@@ -134,7 +151,8 @@ footer ul li {
 header #title,
 header nav,
 header nav li,
-#projects .third-width {
+#projects .third-width,
+#about .half-width {
     float: none;
     text-align: center;
     width: 100%;
@@ -144,6 +162,14 @@ header {
     padding-bottom: 20px;
 }
 
+#about .half-width {
+    display: inline;
+    height: 150px;
+    width: 50%;
+}
 
+#about .half-width p {
+    text-align: left;
+}
 
 }
