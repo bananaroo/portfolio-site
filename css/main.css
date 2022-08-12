@@ -71,18 +71,19 @@ header a:hover {
 /* ABOUT */
 
 #about {
-    min-height: 200px;
+    min-height: 250px;
     color: #7f7f7f;
     text-align: left;
 }
 
 #about p {
     padding-right: 30px;
+    font-size: 20px;
 }
 
 #about .half-width {
     float: left;
-    height: 175px;
+    height: 200px;
     width: 50%;
 }
 
