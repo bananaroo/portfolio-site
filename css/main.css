@@ -118,6 +118,7 @@ header a:hover {
     width: 150px;
     height: 150px;
     width: 250px;
+    max-width: 100%;
 }
 
 #projects h3,
@@ -188,10 +189,6 @@ header {
 
 #skills .half-width {
     height: 250px;
-}
-
-#projects .third-width img {
-    padding: 5px;
 }
 
 }
