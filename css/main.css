@@ -15,7 +15,7 @@ body {
 
 h2 {
     font-family: 'Lora', serif;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 10px;
     font-size: 32px;
 }
@@ -65,28 +65,32 @@ header a:hover {
 /* ABOUT */
 
 #about {
-    min-height: 250px;
+    min-height: 500px;
     color: #7f7f7f;
     text-align: left;
 }
 
 #about p {
-    padding-right: 30px;
     font-size: 20px;
+}
+
+#about br {
+    display: block;
+    content: "";
+    margin-top: 20px;
 }
 
 #about .half-width {
     float: left;
-    /*height: 200px;*/
+    height: 430px;
     width: 50%;
 }
 
 #about .half-width img {
-    text-align: center;
-    margin: auto;
+    float: left;
+    margin: 0;
     display: block;
     width: 100%;
-    height: auto;
 }
 
 /* SKILLS */
