@@ -195,6 +195,11 @@ header {
     width: 50%;
 }
 
+#about .half-width img {
+    width: 40%;
+    padding-bottom: 20px;
+}
+
 #about .half-width p,
 #skills .half-width ul {
     text-align: left;
