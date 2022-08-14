@@ -84,6 +84,7 @@ header a:hover {
     float: left;
     height: 430px;
     width: 50%;
+    
 }
 
 #about .half-width img {
@@ -201,6 +202,10 @@ header {
 
 #skills .half-width {
     height: 250px;
+}
+
+#projects h2 {
+    text-align: center;
 }
 
 }
