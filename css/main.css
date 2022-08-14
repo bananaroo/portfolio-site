@@ -82,9 +82,8 @@ header a:hover {
 
 #about .half-width {
     float: left;
-    height: 430px;
+    height: 480px;
     width: 50%;
-    
 }
 
 #about .half-width img {
@@ -103,7 +102,7 @@ header a:hover {
 
 #skills .half-width {
     float: left;
-    height: 250px;
+    height: 310px;
     width: 50%;
 }
 
@@ -120,6 +119,7 @@ header a:hover {
     width: 30%;
     padding: 10px;
     text-align: left;
+    height: 360px;
 }
 
 #projects .third-width img {
