@@ -71,7 +71,7 @@ header a:hover {
 }
 
 #about p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #about br {
@@ -88,10 +88,9 @@ header a:hover {
 }
 
 #about .half-width img {
-    float: left;
-    margin: 0;
+    margin: auto;
     display: block;
-    width: 80%;
+    width: 85%;
 }
 
 /* SKILLS */
