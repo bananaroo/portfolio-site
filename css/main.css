@@ -133,6 +133,10 @@ header a:hover {
     max-width: 100%;
 }
 
+#projects h2 {
+    padding-left: 10px;
+}
+
 #projects h3,
 #projects a {
     color: #C49075;
