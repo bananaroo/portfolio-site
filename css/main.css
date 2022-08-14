@@ -47,6 +47,7 @@ header li {
 
 header #title {
     float: left;
+    font-size: larger;
 }
 
 header #title h1 {
