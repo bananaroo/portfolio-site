@@ -24,7 +24,7 @@ h2 {
 /* HEADER */
 
 header {
-    background-color: #d09478;
+    background: url("../img/desertbgedit.png");
     background-size: cover;
     background-position: center;
     color: #ffffff;
