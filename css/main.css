@@ -97,7 +97,7 @@ header a:hover {
 /* SKILLS */
 
 #skills {
-    background-color: #AA5F3C;
+    background-color: #C53B1F;
     color: #ffffff;
     min-height: 375px;
 }
@@ -140,7 +140,7 @@ header a:hover {
 
 #projects h3,
 #projects a {
-    color: #AA5F3C;
+    color: #C53B1F;
 }
 
 #projects h3:hover,
@@ -151,7 +151,7 @@ header a:hover {
 /* FOOTER */
 
 footer {
-    background-color: #AA5F3C;
+    background-color: #C53B1F;
     color: #ffffff;
     padding: 20px;
     margin-top: 20px;
