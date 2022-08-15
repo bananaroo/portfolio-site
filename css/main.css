@@ -24,9 +24,9 @@ h2 {
 /* HEADER */
 
 header {
-    background: url("../img/desertbgedit.png");
+    background: url("../img/desert-vector.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     color: #ffffff;
     padding-top: 70px;
     min-height: 70px;
@@ -60,7 +60,7 @@ header nav {
 }
 
 header a:hover {
-    color: #055B4A;
+    color: #FDCD09;
 }
 
 /* ABOUT */
@@ -97,7 +97,7 @@ header a:hover {
 /* SKILLS */
 
 #skills {
-    background-color: #d09478;
+    background-color: #AA5F3C;
     color: #ffffff;
     min-height: 375px;
 }
@@ -140,7 +140,7 @@ header a:hover {
 
 #projects h3,
 #projects a {
-    color: #C49075;
+    color: #AA5F3C;
 }
 
 #projects h3:hover,
@@ -151,7 +151,7 @@ header a:hover {
 /* FOOTER */
 
 footer {
-    background-color: #d09478;
+    background-color: #AA5F3C;
     color: #ffffff;
     padding: 20px;
     margin-top: 20px;
