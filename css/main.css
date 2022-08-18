@@ -1,3 +1,8 @@
+:root {
+    --primary: #CE5D18;
+    --secondary: #8A2337;
+}
+
 body {
     font: 16px 'Source Sans Pro', sans-serif;
     padding: 0;
@@ -114,7 +119,7 @@ header a:hover {
     height: 310px;
     padding: 20px 15px 20px 20px;
     text-align: left;
-    height: 490px;
+    height: 600px;
 }
 
 #skills ul {
@@ -162,7 +167,7 @@ header a:hover {
   }
   
   .card-face-front {
-    background-image: url("img/desert-vector.jpeg") darkred;
+    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,19 +227,15 @@ header a:hover {
   
   .card-body {
     padding: 30px;
+    margin: -28px 20px 20px 20px
   }
   
-  .card-body h3 {
-    color: var(--dark);
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  
-  .card-body p {
-    color: var(--dark);
+  .card-body ul li {
+    color: #fff;
     font-size: 18px;
     line-height: 1.4;
+    list-style: none;
+    font-size: 25px;
   }
 
 /* PROJECTS */
