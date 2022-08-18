@@ -66,14 +66,18 @@ header a:hover {
 /* ABOUT */
 
 #about {
+    background-color: #C53B1F;
     min-height: 500px;
-    color: #7f7f7f;
+    color: #000;
     text-align: left;
 }
 
 #about p {
+    display: block;
     font-size: 25px;
-    padding-bottom: 20px;
+    padding: 30px 20px 30px 20px;
+    background: #fff;
+    border-radius: 50px;
 }
 
 #about br {
@@ -84,13 +88,16 @@ header a:hover {
 
 #about .half-width {
     float: left;
-    max-height: 635px;
+    max-height: 820px;
     width: 50%;
+    padding: 20px 0 20px 0;
 }
 
 #about .half-width img {
     margin-left: 100px;
+    margin-top: 60px;
     display: block;
+    object-fit: cover;
     width: 90%;
 }
 
