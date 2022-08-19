@@ -4,7 +4,7 @@
 }
 
 body {
-    font: 16px 'Source Sans Pro', sans-serif;
+    font: 1em 'Source Sans Pro', sans-serif;
     padding: 0;
     margin: 0;
     color: #2b2b2b;
@@ -22,7 +22,7 @@ h2 {
     font-family: 'Lora', serif;
     margin-top: 50px;
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 
@@ -41,7 +41,7 @@ header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 header li {
@@ -79,11 +79,12 @@ header a:hover {
 
 #about p {
     display: block;
-    font-size: 25px;
+    font-size: 1.5625em;
     padding: 30px 20px 30px 20px;
     background: #fff;
     border-radius: 50px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
 }
 
 #about br {
@@ -105,10 +106,10 @@ header a:hover {
 
 #about .half-width img {
     margin-left: 100px;
-    margin-top: 60px;
+    margin-top: 40px;
     display: block;
-    object-fit: cover;
-    width: 90%;
+    width: 70%;
+    height: auto;
 }
 
 /* SKILLS */
@@ -130,7 +131,7 @@ header a:hover {
 #skills ul {
     margin: 10px 0 0 20px;
     padding-left: 5px;
-    font-size: 25px;
+    font-size: 1.5625em;
 }
 
 #skills .first-list,
@@ -141,7 +142,7 @@ header a:hover {
 }
 
 .card {
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 30px 20px;
     width: 400px;
     height: 550px;
     perspective: 1000px;
@@ -180,7 +181,7 @@ header a:hover {
   
   .card-face-front h2 {
     color: #FFF;
-    font-size: 32px;
+    font-size: 2em;
   }
   
   .card-face-back {
@@ -237,10 +238,9 @@ header a:hover {
   
   .card-body ul li {
     color: #fff;
-    font-size: 18px;
     line-height: 1.4;
     list-style: none;
-    font-size: 25px;
+    font-size: 1.02em;
   }
 
 /* PROJECTS */
@@ -339,7 +339,7 @@ header {
 }
 
 #about .half-width p {
-    font-size: 20px;
+    font-size: 1.25em;
     max-height: 5000px;
 }
 
