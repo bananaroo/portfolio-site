@@ -4,25 +4,25 @@
 }
 
 body {
-    font: 1em 'Source Sans Pro', sans-serif;
-    padding: 0;
-    margin: 0;
     color: #2b2b2b;
+    font: 1em 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* ----GLOBAL------ */
 
 .container {
-    width: 80%;
     margin: auto;
     overflow: hidden;
+    width: 80%;
 }
 
 h2 {
     font-family: 'Lora', serif;
-    margin-top: 50px;
-    margin-bottom: 10px;
     font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 
@@ -30,23 +30,23 @@ h2 {
 
 header {
     background: url("../img/desert-vector.jpeg") darkred;
-    background-size: cover;
     background-position: bottom;
+    background-size: cover;
     color: #ffffff;
-    padding-top: 70px;
     min-height: 70px;
+    padding-top: 70px;
 }
 
 header a {
     color: #ffffff;
+    font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1em;
 }
 
 header li {
-    float: left;
     display: inline;
+    float: left;
     padding: 0 20px 0 20px;
 }
 
@@ -72,24 +72,24 @@ header a:hover {
 
 #about {
     background-color: #C53B1F;
-    min-height: 500px;
     color: #000;
+    min-height: 500px;
     text-align: left;
 }
 
 #about p {
-    display: block;
-    font-size: 1.5625em;
-    padding: 30px 20px 30px 20px;
     background: #fff;
     border-radius: 50px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    display: block;
+    font-size: 1.5625em;
     margin-top: 50px;
+    padding: 30px 20px 30px 20px;
 }
 
 #about br {
-    display: block;
     content: "";
+    display: block;
     margin-top: 20px;
 }
 
@@ -100,22 +100,18 @@ header a:hover {
 #about .half-width {
     float: left;
     max-height: 820px;
-    width: 50%;
-    padding: 20px 0 20px 0;
     max-height: 500px;
+    padding: 20px 0 20px 0;
+    width: 50%;
 }
-
-
 
 #about .half-width img {
+    display: block;
+    height: auto;
     margin-left: 100px;
     margin-top: 60px;
-    display: block;
     width: 70%;
-    height: auto;
 }
-
-
 
 /* SKILLS */
 
@@ -127,16 +123,15 @@ header a:hover {
 
 #skills .half-width {
     float: left;
-    height: 310px;
+    height: 600px;
     padding: 20px 15px 20px 20px;
     text-align: left;
-    height: 600px;
 }
 
 #skills ul {
+    font-size: 1.5625em;
     margin: 10px 0 0 20px;
     padding-left: 5px;
-    font-size: 1.5625em;
 }
 
 #skills .first-list,
@@ -147,19 +142,19 @@ header a:hover {
 }
 
 .card {
-    margin: 20px 20px 30px 20px;
-    width: 400px;
     height: 550px;
+    margin: 20px 20px 30px 20px;
     perspective: 1000px;
+    width: 400px;
   }
   
   .card-inner {
-    width: 100%;
+    cursor: pointer;
     height: 100%;
+    position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
-    cursor: pointer;
-    position: relative;
+    width: 100%;
   }
   
   .card-inner.is-flipped {
@@ -167,20 +162,20 @@ header a:hover {
   }
   
   .card-face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    overflow: hidden;
     border-radius: 50px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    width: 100%;
   }
   
   .card-face-front {
+    align-items: center;
     background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   
@@ -195,16 +190,19 @@ header a:hover {
   }
   
   .card-content {
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
   
   .card-header {
-    position: relative;
     padding: 30px 30px 40px;
+    position: relative;
+    
   }
   
   .card-header:after {
+    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+    border-radius: 0px 0px 50% 0px;
     content: '';
     display: block;
     position: absolute;
@@ -212,60 +210,57 @@ header a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
     z-index: -1;
-    border-radius: 0px 0px 50% 0px;
   }
   
   .skills {
-    display: block;
-    width: 128px;
-    height: 128px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
     background-color: #FFF;
     border: 5px solid #FFF;
+    border-radius: 50%;
+    display: block;
+    height: 128px;
+    margin: 0 auto 30px;
     object-fit: cover;
+    width: 128px;
   }
   
   .card-header h2 {
     color: #FFF;
     font-size: 32px;
     font-weight: 900;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
   }
   
   .card-body {
-    padding: 30px;
     margin: -28px 20px 20px 20px
+    padding: 30px;
   }
   
   .card-body ul li {
     color: #fff;
+    font-size: 1.02em;
     line-height: 1.4;
     list-style: none;
-    font-size: 1.02em;
   }
 
 /* PROJECTS */
 
 #projects .third-width {
     float: left;
-    width: 30%;
+    height: 360px;
     padding: 10px;
     text-align: left;
-    height: 360px;
+    width: 30%;
 }
 
 #projects .third-width img {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
-    width: 150px;
     height: 150px;
-    width: 250px;
     max-width: 100%;
+    padding: 5px;
+    width: 250px;
 }
 
 #projects h2 {
@@ -287,9 +282,9 @@ header a:hover {
 footer {
     background-color: #C53B1F;
     color: #ffffff;
-    padding: 20px;
-    margin-top: 20px;
     height: 200px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 footer h2 {
@@ -326,8 +321,8 @@ header nav {
 }
 
 header {
-    padding-top: 30px;
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 #about .half-width {
@@ -337,9 +332,9 @@ header {
 }
 
 #about .half-width img {
-    width: 40%;
-    padding-bottom: 20px;
     margin: auto;
+    padding-bottom: 20px;
+    width: 40%;
 }
 
 #about .half-width p,
@@ -380,9 +375,9 @@ footer ul li {
     }
     
     #about .half-width img {
-        width: 50%;
         padding-bottom: 20px;
         margin: auto;
+        width: 50%;
     }
 
 }
