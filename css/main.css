@@ -316,9 +316,13 @@ header nav li,
 #projects .third-width,
 #about .half-width,
 #skills .half-width {
-    float: none;
+   /* float: none; */
     text-align: center;
     width: 100%;
+}
+
+header nav {
+    margin-right: 40px;
 }
 
 header {
