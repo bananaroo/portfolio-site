@@ -138,7 +138,7 @@ header a:hover {
 #skills ul {
     font-size: 1.5625em;
     margin: 10px 0 0 20px;
-    padding-left: 5px;
+    padding-left: 40px;
 }
 
   .card-inner {
@@ -189,7 +189,7 @@ header a:hover {
   }
   
   .card-header {
-    padding: 30px 30px 40px;
+    padding: 30px 30px 14px;
     position: relative;
   }
   
@@ -211,10 +211,10 @@ header a:hover {
     border: 5px solid #FFF;
     border-radius: 50%;
     display: block;
-    height: 128px;
-    margin: 0 auto 30px;
+    height: 100px;
+    margin: 0 auto -57px;
     object-fit: cover;
-    width: 128px;
+    width: 100px;
   }
   
   .card-header h2 {
@@ -223,6 +223,7 @@ header a:hover {
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 77px;
   }
   
   .card-body {
@@ -378,6 +379,12 @@ footer ul li {
         padding-bottom: 20px;
         margin: auto;
         width: 50%;
+    }
+
+    #skills .half-width {
+        min-height: 550px;
+        width: 60%;
+        margin: 20px 0 30px 110px;
     }
 
 }
