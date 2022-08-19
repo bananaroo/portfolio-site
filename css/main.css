@@ -99,7 +99,6 @@ header a:hover {
 
 #about .half-width {
     float: left;
-    max-height: 820px;
     max-height: 500px;
     padding: 20px 0 20px 0;
     width: 50%;
@@ -123,9 +122,17 @@ header a:hover {
 
 #skills .half-width {
     float: left;
-    height: 600px;
-    padding: 20px 15px 20px 20px;
-    text-align: left;
+    max-height: 500px;
+    padding: 20px 20px 20px 65px;
+    margin-bottom: 50px;
+}
+
+.card {
+    height: 550px;
+    margin: 20px 10px 20px 10px;
+    perspective: 1000px;
+    width: 400px;
+    padding: 30px 0px 30px 0px;
 }
 
 #skills ul {
@@ -134,13 +141,6 @@ header a:hover {
     padding-left: 5px;
 }
 
-.card {
-    height: 550px;
-    margin: 20px 20px 30px 20px;
-    perspective: 1000px;
-    width: 400px;
-  }
-  
   .card-inner {
     cursor: pointer;
     height: 100%;
@@ -174,7 +174,8 @@ header a:hover {
   
   .card-face-front h2 {
     color: #FFF;
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: 140px;
   }
   
   .card-face-back {
@@ -190,7 +191,6 @@ header a:hover {
   .card-header {
     padding: 30px 30px 40px;
     position: relative;
-    
   }
   
   .card-header:after {
@@ -342,10 +342,17 @@ header {
 
 #skills {
     min-height: 550px;
+    padding-left: none;
 }
 
 #skills .half-width {
-    height: 250px;
+    min-height: 550px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#skills .card.half-width {
+    padding: 0;
 }
 
 #projects h2 {
