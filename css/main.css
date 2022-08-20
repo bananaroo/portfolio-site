@@ -121,9 +121,9 @@ header a:hover {
 }
 
 #skills .half-width {
-    float: left;
+   /* float: left;*/
     max-height: 500px;
-    padding: 20px 20px 20px 38px;
+   /* padding: 20px 20px 20px 35px;*/
     margin-bottom: 50px;
 }
 
@@ -132,7 +132,12 @@ header a:hover {
     margin: 20px 10px 20px 10px;
     perspective: 1000px;
     width: 400px;
-    padding: 30px 0px 30px 0px;
+}
+
+#skills .container {
+    display: flex;
+    justify-content: space-around;
+    overflow:visible;
 }
 
   .card-inner {
@@ -233,7 +238,7 @@ header a:hover {
   }
 
   #skills ul {
-    margin: 20px 0 0 20px;
+    margin: 10px 0 0 20px;
     padding: 10px 20px 30px 20px;
 }
 
@@ -302,8 +307,7 @@ header #title,
 header nav,
 header nav li,
 #projects .third-width,
-#about .half-width,
-#skills .half-width {
+#about .half-width {
    /* float: none; */
     text-align: center;
     width: 100%;
@@ -330,8 +334,7 @@ header {
     width: 40%;
 }
 
-#about .half-width p,
-#skills .half-width ul {
+#about .half-width p {
     text-align: left;
 }
 
@@ -350,13 +353,17 @@ header {
 }
 
 #skills .half-width {
-    min-height: 550px;
+    max-height: 510px;
     width: 90%;
     margin-bottom: 10px;
 }
 
 #skills .card.half-width {
     padding: 0;
+}
+
+#skills .container {
+    flex-wrap: wrap;
 }
 
 #projects h2 {
@@ -385,9 +392,11 @@ footer ul li {
     }
 
     #skills .half-width {
-        min-height: 550px;
-        width: 60%;
-        margin: 50px 0 30px 56px;
+        display: flex;
+        max-height: 52px 0;
+        width: 90%;
+        margin: 50px 0 30px 30px;
+        padding-right: 10px;
     }
 
 }
