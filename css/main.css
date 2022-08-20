@@ -123,7 +123,7 @@ header a:hover {
 #skills .half-width {
     float: left;
     max-height: 500px;
-    padding: 20px 20px 20px 65px;
+    padding: 20px 20px 20px 38px;
     margin-bottom: 50px;
 }
 
@@ -137,7 +137,7 @@ header a:hover {
 
 #skills ul {
     font-size: 1.5625em;
-    margin: 10px 0 0 20px;
+    margin: 30px 0 0 20px;
     padding-left: 40px;
 }
 
@@ -336,6 +336,10 @@ header {
     text-align: left;
 }
 
+#skills .half-width ul {
+    padding-left: 0;
+}
+
 #about .half-width p {
     font-size: 1.25em;
     max-height: 5000px;
@@ -384,7 +388,7 @@ footer ul li {
     #skills .half-width {
         min-height: 550px;
         width: 60%;
-        margin: 20px 0 30px 110px;
+        margin: 50px 0 30px 56px;
     }
 
 }
