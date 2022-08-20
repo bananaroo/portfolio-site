@@ -135,12 +135,6 @@ header a:hover {
     padding: 30px 0px 30px 0px;
 }
 
-#skills ul {
-    font-size: 1.5625em;
-    margin: 30px 0 0 20px;
-    padding-left: 40px;
-}
-
   .card-inner {
     cursor: pointer;
     height: 100%;
@@ -233,10 +227,15 @@ header a:hover {
   
   .card-body ul li {
     color: #fff;
-    font-size: 1.02em;
-    line-height: 1.4;
     list-style: none;
+    display: block;
+    font-size: 1.5625em;
   }
+
+  #skills ul {
+    margin: 20px 0 0 20px;
+    padding: 10px 20px 30px 20px;
+}
 
 /* PROJECTS */
 
@@ -337,7 +336,7 @@ header {
 }
 
 #skills .half-width ul {
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 #about .half-width p {
