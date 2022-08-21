@@ -245,7 +245,7 @@ header a:hover {
 /* PROJECTS */
 
 #projects {
-    background-color: #C53B1F;
+    background-color: #fff;
 }
 
 .grid {
@@ -253,10 +253,11 @@ header a:hover {
     grid-gap: 16px;
     padding: 16px;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 40px;
 }
 
 .col {
-    background-color: #FDCD09;
+    background-color: #C53B1F;
     margin-bottom: 16px;
     padding: 16px;
     border-radius: 20px;
@@ -270,20 +271,21 @@ header a:hover {
 }
 
 #projects h2 {
-    font-size: 1.5423em;
     margin-bottom: 60px;
+    color: #C53B1F;
+    text-align: center;
 }
 
-#projects h2,
 #projects h3 {
     text-align: center;
     color: #fff;
+    font-size: 2em;
 }
 
 #projects h3,
 #projects a,
 #projects p {
-    color: #000;
+    color: #fff;
 }
 
 #projects h3:hover,
@@ -293,7 +295,7 @@ header a:hover {
 
 #projects p {
     display: block;
-    font-size: 1em;
+    font-size: 1.5327em;
     padding: 0px 20px 30px 20px;
 }
 
@@ -302,8 +304,8 @@ header a:hover {
 footer {
     background-color: #C53B1F;
     color: #ffffff;
-    height: 200px;
-    padding: 20px;
+    height: 250px;
+    padding: 80px;
 }
 
 footer h2 {
@@ -311,7 +313,7 @@ footer h2 {
 }
 
 footer ul {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -393,8 +395,6 @@ header {
 
 .grid {
     display: block;
-    /*grid-gap: 16px;*/
-    /*grid-template-columns: repeat(2, 1fr);*/
 }
 
 .col {
