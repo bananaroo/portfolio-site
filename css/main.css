@@ -202,6 +202,10 @@ header a:hover {
     bottom: 0;
     z-index: -1;
   }
+
+  .reverse {
+    transform: scaleX(-1);
+  }
   
   .skills {
     background-color: #FFF;
